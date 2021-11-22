@@ -1,0 +1,169 @@
+/* Stylesheet for Home page */ 
+
+@font-face {
+	font-family:"Sansation Light";
+	src:url("fontss/Sansation_Light.eot") format("eot"),
+	url("fontss/Sansation_Light.woff") format("woff"),
+	url("fontss/Sansation_Light.ttf") format("truetype"),
+	url("fontss/Sansation_Light.svg") format("svg");
+	font-weight:normal;font-style:normal;
+}
+
+@font-face {
+	font-family:"Montserrat-Regular";
+	src: url("fontss/Montserrat-Regular.ttf") format("truetype");
+}
+
+.nav-tabs li a {
+  color: #777;
+}
+
+.navbar {
+  font-family: Montserrat, sans-serif;
+  margin-bottom: 0;
+  background-color: #2d2d30;
+  border: 0;
+  font-size: 11px !important;
+  letter-spacing: 4px;
+  opacity: 0.9;
+}
+
+.navbar li a, .navbar .navbar-brand { 
+  color: #d5d5d5 !important;
+}
+
+.navbar-nav li a:hover {
+  color: #fff !important;
+}
+
+.navbar-nav li.active a {
+  color: #fff !important;
+  background-color: #29292c !important;
+}
+
+.navbar-brand{
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.logopng{
+	height: 40px;
+	width: auto;
+}
+
+.col-lg-6{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.col-lg-4{
+	padding: 2px;
+	justify-content: center;
+}
+
+.row1{
+	background-color: #fff;
+}
+
+.row2{
+	background-color: #151515;
+}
+
+.nopost{
+	font-size: 21px;
+	font-family: "Sansation Light";
+	text-align: center;
+	margin-bottom: 120px;
+}
+
+.panel.panel-default{
+	background-color: transparent;
+	margin-bottom: 40px;
+	border: none;
+}
+
+.panel .panel-heading {
+    background-image: none;
+    background-color: transparent;
+    text-align: center;
+    font-family: "Montserrat-Regular";
+    color: #000;
+    font-size: 35px;
+    border: none;
+    padding-bottom: 3px;
+}
+
+.panel-body{
+	font-size: 21px;
+	font-family: "Sansation Light";
+	text-align: center;
+	background-color: transparent;
+	color: #000;
+	margin-bottom: 80px;
+	padding-top: 0px;	
+}
+
+.st-rowtitle{
+	margin-top: 150px;
+	margin-bottom: 100px;
+	font-family: "Sansation Light", sans-serif;
+	color: #000;
+	text-align: center;
+}
+
+.titletext1{
+	font-size: 50px;
+}
+
+.titletext2{
+	font-size: 50px;
+}
+
+.rows{
+	margin-bottom: 150px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.rowtitle2{
+	margin-top: 100px;
+	margin-bottom: 85px;
+	font-family: "Sansation Light", sans-serif;
+	color: #f5f5f5;
+	text-align: center;
+}
+
+.rowtitle1{
+	margin-top: 100px;
+	margin-bottom: 85px;
+	font-family: "Sansation Light", sans-serif;
+	color: #000;
+	text-align: center;
+}
+
+.whitethumb{
+	border: 2px solid #000;
+}
+
+.blackthumb{
+	border: 2px solid #f5f5f5;
+}
+
+.thumbnail{
+	margin: auto;
+	padding: 0px;
+	max-height: 280px;
+	overflow: hidden;
+}
+
+.thumbnails {
+    text-align:center;
+}
+
+.thumbnails .imageclass {
+    display: inline-block;
+    *display:inline; /* ie7 fix */
+    float: none; /* this is the part that makes it work */
+}
+
+

@@ -1,0 +1,224 @@
+/* Stylesheet for Categories page */ 
+
+@font-face {
+  font-family: cyberpnk;
+  src: url(fonts/Cyberpunk-Regular.ttf);
+}
+
+@font-face {
+  font-family: csgo;
+  src: url(fonts/cs_regular.ttf);
+}
+
+@font-face {
+  font-family: wow;
+  src: url(fonts/LifeCraft_Font.ttf);
+}
+
+@font-face {
+  font-family: valorant;
+  src: url(fonts/ValorantFont.ttf);
+}
+
+@font-face {
+  font-family: pixelr;
+  src: url(fonts/type_writer.ttf);
+}
+
+@font-face {
+  font-family: lis;
+  src: url(fonts/Whatnot.ttf);
+}
+
+@font-face {
+	font-family:"Sansation Light";
+	src:url("fonts/Sansation_Light.eot") format("eot"),
+	url("fonts/Sansation_Light.woff") format("woff"),
+	url("fonts/Sansation_Light.ttf") format("truetype"),
+	url("fonts/Sansation_Light.svg") format("svg");
+	font-weight:normal;font-style:normal;
+}
+
+@font-face {
+	font-family:"Montserrat-Regular";
+	src: url("../fontss/Montserrat-Regular.ttf") format("truetype");
+}
+
+.nav-tabs li a {
+  color: #777;
+}
+
+.navbar {
+  font-family: Montserrat, sans-serif;
+  margin-bottom: 0;
+  background-color: #2d2d30;
+  border: 0;
+  font-size: 11px !important;
+  letter-spacing: 4px;
+  opacity: 0.9;
+}
+
+.navbar li a, .navbar .navbar-brand { 
+  color: #d5d5d5 !important;
+}
+
+.navbar-nav li a:hover {
+  color: #fff !important;
+}
+
+.navbar-nav li.active a {
+  color: #fff !important;
+  background-color: #29292c !important;
+}
+
+.navbar-brand{
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.logopng{
+	height: 40px;
+	width: auto;
+}
+
+.col-lg-6{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.col-lg-4{
+	padding: 2px;
+	justify-content: center;
+}
+
+.row1{
+	background-color: #fff;
+}
+
+.row2{
+	background-color: #151515;
+}
+
+.st-rowtitle{
+	margin-top: 150px;
+	margin-bottom: 100px;
+	font-family: "Sansation Light", sans-serif;
+	color: #000;
+	text-align: center;
+}
+
+.titletext1{
+	font-size: 70px;
+}
+
+.rows{
+	margin-top: 150px; 
+	margin-bottom: 150px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.rowtitle2{
+	margin-top: 100px;
+	margin-bottom: 85px;
+	font-family: "Sansation Light", sans-serif;
+	color: #f5f5f5;
+	text-align: center;
+}
+
+.rowtitle1{
+	margin-top: 100px;
+	margin-bottom: 85px;
+	font-family: "Sansation Light", sans-serif;
+	color: #000;
+	text-align: center;
+}
+
+.whitethumb{
+	border: 2px solid #000;
+	margin: auto;
+	padding: 2px;
+	overflow: hidden;
+}
+
+.blackthumb{
+	border: 2px solid #f5f5f5;
+	margin: auto;
+	padding: 0px;
+	overflow: hidden;
+}
+
+
+.thumbnail .caption{
+	text-align: center;
+	font-size: 49px;
+	padding: 0px;
+}
+
+.csgo-title{
+	padding-top: 10px;
+	margin: 0px;
+	font-family: 'csgo';
+}
+
+.cyber-title{
+	font-family: 'cyberpnk';
+}
+
+.pxl-title{
+	padding-top: 15px;
+	padding-bottom: 8px;
+	margin: 0px;
+	font-size: 40px;
+	font-family: 'pixelr';
+}
+
+.val-title{
+	padding-top: 10px;
+	margin: 0px;
+	font-family: 'valorant';
+}
+
+.wow-title{
+	padding-top: 10px;
+	margin: 0px;
+	font-family: 'wow';
+}
+
+.lis-title{
+	padding-top: 10px;
+	margin: 0px;
+	font-family: 'lis';
+}
+
+
+.thumbnails {
+    text-align:center;
+}
+
+.thumbnails .imageclass {
+    display: inline-block;
+    *display:inline;
+    float: none; 
+}
+
+.imageclass{
+	color: #fff;
+	text-decoration: none;
+}
+
+.imageclass:hover{
+	color: #fff;
+	text-decoration: none;
+}
+
+.imageclass:visited{
+	color: #fff;
+	text-decoration: none;
+}
+
+.imageclass:active{
+	color: #fff;
+	text-decoration: none;
+}
+

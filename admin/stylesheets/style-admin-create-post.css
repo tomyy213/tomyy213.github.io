@@ -1,0 +1,217 @@
+/* Stylesheet for Admin CreatePost page */ 
+
+@font-face {
+	font-family:"Sansation Light";
+	src:url("fonts/Sansation_Light.eot") format("eot"),
+	url("fonts/Sansation_Light.woff") format("woff"),
+	url("fonts/Sansation_Light.ttf") format("truetype"),
+	url("fonts/Sansation_Light.svg") format("svg");
+	font-weight:normal;font-style:normal;
+}
+
+@font-face {
+	font-family:"Montserrat-Regular";
+	src: url("fonts/Montserrat-Regular.ttf") format("truetype");
+}
+
+.nav-tabs li a {
+  color: #777;
+}
+
+.navbar {
+  font-family: Montserrat, sans-serif;
+  margin-bottom: 0;
+  background-color: #2d2d30;
+  border: 0;
+  font-size: 11px !important;
+  letter-spacing: 4px;
+  opacity: 0.9;
+}
+
+.navbar li a, .navbar .navbar-brand { 
+  color: #d5d5d5 !important;
+}
+
+.navbar-nav li a:hover {
+  color: #fff !important;
+}
+
+.navbar-nav li.active a {
+  color: #fff !important;
+  background-color: #29292c !important;
+}
+
+.navbar-brand{
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.logopng{
+	height: 40px;
+	width: auto;
+}
+
+.col-lg-6{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.col-lg-12{
+	padding: 2px;
+	justify-content: center;
+}
+
+.row1{
+	background-color: #fff;
+}
+
+.row2{
+	background-color: #151515;
+}
+
+.st-rowtitle{
+	margin-top: 150px;
+	margin-bottom: 85px;
+	font-family: "Sansation Light", sans-serif;
+	color: #000;
+	text-align: center;
+}
+
+.credentials{
+	padding-left: 30px;
+	padding-right: 30px;
+	font-size: 30px;
+	font-family: "Sansation Light", sans-serif;
+	color: #000;
+	text-align: center;
+}
+
+.inputs{
+	padding-left: 30px;
+	padding-right: 30px;
+	margin-top: 80px;
+	margin-bottom: 60px;
+	text-align: center;
+}
+
+.form-group{
+	font-family: "Sansation Light", sans-serif;
+	text-align: center;
+
+}
+
+.form-control{
+	text-align: center;	
+	font-size: 20px;
+}
+
+.cancel{
+	margin-top: 20px;
+	color: #fff;
+	font-size: 17px;
+}
+
+
+.invalid-feedback{
+	color: #fff;
+	font-size: 17px;
+}
+
+.titletext1{
+	font-size: 50px;
+	margin-top: 100px;
+	margin-bottom: 50px;
+	font-family: "Sansation Light", sans-serif;
+	color: #000;
+	text-align: center;
+}
+
+.titletext2{
+	font-size: 20px;
+	margin-bottom: 25px;
+	font-family: "Sansation Light", sans-serif;
+	color: #f5f5f5;
+	text-align: center;
+}
+
+.btn-primary{
+	width: 100%;
+	font-family: Sansation Light;
+	height: 40px;
+	background-color: #fff;
+	border: 1px solid black;
+	color: #000;
+	font-size: 20px;
+	padding-top: 6px;
+	margin-top: 2px;
+}
+
+.rows{
+	margin-bottom: 150px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.rowtitle2{
+	margin-top: 100px;
+	margin-bottom: 85px;
+	font-family: "Sansation Light", sans-serif;
+	color: #f5f5f5;
+	text-align: center;
+}
+
+.rowtitle1{
+	margin-top: 190px;
+	margin-bottom: 85px;
+	font-family: "Sansation Light", sans-serif;
+	color: #000;
+	text-align: center;
+}
+
+.btn-primary{
+	color: #000;
+	text-decoration: none;
+}
+
+.btn-primary:hover{
+	background-color: #151515;
+	border: 1px solid #fff;
+	color: #fff;
+	text-decoration: none;
+}
+
+.btn-primary:active{
+	background-color: #151515 !important;
+	border: 1px solid #fff !important;
+	color: #fff !important;
+	text-decoration: none !important;
+}
+
+.btn-primary:visited{
+	background-color: #151515;
+	border: 1px solid #fff;
+	color: #fff;
+	text-decoration: none;
+}
+
+.btn-primary{
+	color: #000;
+	text-decoration: none;
+}
+
+.cancel:hover{
+	color: #fff;
+	text-decoration: none;
+}
+
+.cancel:active{
+	color: #fff !important;
+	text-decoration: none !important;
+}
+
+.cancel:visited{
+	color: #fff;
+	text-decoration: none;
+}
+
+

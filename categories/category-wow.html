@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Games & Art - Where games and art meet!</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/style-categories-wow.css"> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body class="bodycol">
+<!-- NavBar -->
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>                        
+          </button>
+        <a class="navbar-brand"  href="../home.php"><img src="../images/logo.png" class="logopng"></a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+              <li><a href="../home.php">HOME</a></li>
+              <li><a href="../categories/cata.html">CATEGORIES</a></li>
+              <li><a href="../login.php"><span class="glyphicon glyphicon-user"></span></a></li>
+          </ul>
+      </div>
+    </div>
+</nav>
+<!-- NavBar End -->
+
+<!-- Row title -->
+    <div class="row row1">
+        <div class="col-lg-4"></div>
+            <div class="col-lg-4">
+                <div class="st-rowtitle">
+                    <h2 class="titletext1">World of Warcraft</h2>
+                </div>
+            </div>
+    </div>
+<!-- Row title End -->
+
+<!-- 1st row -->
+        <div class="row row2">
+            <div class="col-lg-12 rows">
+                <div class="col-lg-4">
+                    <div class="thumbnail blackthumb">
+                        <!-- Onclick atver palielinatu bildi -->
+                        <img src="images/wow/illidan.jpg" alt="illi" class="img-fluid rounded" onclick="onClick(this)">
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="thumbnail blackthumb">
+                        <!-- Onclick atver palielinatu bildi -->
+                        <img src="images/wow/nelf.jpg" alt="nelf" class="img-fluid rounded" onclick="onClick(this)">
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="thumbnail blackthumb">
+                        <!-- Onclick atver palielinatu bildi -->
+                        <img src="images/wow/darnassus.jpg" alt="darn" class="img-fluid rounded" onclick="onClick(this)">
+                    </div>
+                </div>
+            </div>
+        </div>
+<!-- 1st row End -->
+
+<!-- 2nd row -->
+        <div class="row row1">
+            <div class="col-lg-12 rows">
+                <div class="col-lg-4">
+                    <div class="thumbnail whitethumb">
+                        <!-- Onclick atver palielinatu bildi -->
+                        <img src="images/wow/dragonflight.jpg" alt="drgflght" class="img-fluid rounded" onclick="onClick(this)">
+                    </div>
+                </div>
+
+            <div class="col-lg-4">
+                <div class="thumbnail whitethumb">
+                    <!-- Onclick atver palielinatu bildi -->
+                    <img src="images/wow/hva.jpg" alt="hva" class="img-fluid rounded" onclick="onClick(this)">
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="thumbnail whitethumb">
+                    <!-- Onclick atver palielinatu bildi -->
+                    <img src="images/wow/hunter.jpg" alt="hnt" class="img-fluid rounded" onclick="onClick(this)">
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- 2nd row End -->
+<!-- 3rd row -->
+        <div class="row row2">
+            <div class="col-lg-12 rows">
+                <div class="col-lg-4">
+                    <div class="thumbnail blackthumb">
+                        <!-- Onclick atver palielinatu bildi -->
+                        <img src="images/wow/jaina2.jpg" alt="j2" class="img-fluid rounded" onclick="onClick(this)">
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="thumbnail blackthumb">
+                        <!-- Onclick atver palielinatu bildi -->
+                        <img src="images/wow/priestangel.jpg" alt="pang" class="img-fluid rounded" onclick="onClick(this)">
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="thumbnail blackthumb">
+                        <!-- Onclick atver palielinatu bildi -->
+                        <img src="images/wow/wowpxl2.jpg" alt="pxl" class="img-fluid rounded" onclick="onClick(this)">
+                    </div>
+                </div>
+            </div>
+        </div>
+<!-- 3rd row End -->
+
+<!-- Onclick atver palielinatu bildi -->
+<div id="modal01" class="modal" onclick="this.style.display='none'">
+  <span class="close">&times;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+    <div class="modal-content">
+        <img id="img01" style="max-width:100%; max-height: 800px;">
+    </div>
+</div>
+<script>
+    function onClick(element) {
+    document.getElementById("img01").src = element.src;
+    document.getElementById("modal01").style.display = "block";
+    }  
+</script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+.col-log-12{
+	max-height: 70%;
+}
+
+.carousel-caption{
+	padding-bottom: 100px;
+}
+
+.carousel-inner{
+	margin: auto;
+	min-height: 100px;
+	max-height: 980px;
+}
+
+.enterlink{
+	color: white;
+	text-decoration: none;
+}
+
+.enterlink:hover{
+	color: white;
+	text-decoration: none;
+}
+
+.enterlink:visited{
+	color: white;
+	text-decoration: none;
+}
+
+.enterlink:active{
+	color: white;
+	text-decoration: none;
+}
